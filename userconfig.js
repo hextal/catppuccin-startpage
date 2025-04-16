@@ -107,7 +107,7 @@ const default_config = {
               name: "Repos",
               url: "https://dev.azure.com/ClickDimensionstfs/",
               icon: "brand-github",
-              icon_color: palette.purple,
+              icon_color: palette.lavender,
             },
             {
               name: "Pipelines",
