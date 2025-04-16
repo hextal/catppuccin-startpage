@@ -17,7 +17,7 @@ const default_config = {
   tabs: [
     { 
       name: "myself",
-      background_url: "src/img/banners/cbg-11.gif",
+      background_url: "src/img/banners/cbg-12.gif",
       categories: [
         {
           name: "Productivity",
@@ -84,7 +84,7 @@ const default_config = {
               name: "calendar",
               url: "https://outlook.office.com/calendar/view/month",
               icon: "calendar",
-              icon_color: palette.blue,
+              icon_color: palette.peach,
             },
             {
               name: "onedrive",
@@ -182,29 +182,6 @@ const default_config = {
       background_url: "src/img/banners/cbg-09.gif",
       categories: [
         {
-          name: "social media",
-          links: [
-            {
-              name: "telegram",
-              url: "https://web.telegram.org",
-              icon: "brand-telegram",
-              icon_color: palette.green,
-            },
-            {
-              name: "facebook",
-              url: "https://www.facebook.com",
-              icon: "brand-facebook",
-              icon_color: palette.peach,
-            },
-            {
-              name: "reddit",
-              url: "https://www.reddit.com/",
-              icon: "brand-reddit",
-              icon_color: palette.red,
-            },
-          ],
-        },
-        {
           name: "Settings",
           links: [
             {
@@ -233,7 +210,7 @@ const default_config = {
             {
               name: "Edit Page",
               url: "https://github.com/hextal/work-startpage/blob/main/userconfig.js",
-              icon: "pen",
+              icon: "library-plus",
               icon_color: palette.peach,
             },
           ],
