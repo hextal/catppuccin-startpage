@@ -95,7 +95,7 @@ const default_config = {
               name: "Repos",
               url: "https://dev.azure.com/ClickDimensionstfs/",
               icon: "brand-github",
-              icon_color: palette.green,
+              icon_color: palette.purple,
             },
             {
               name: "Pipelines",
@@ -107,13 +107,13 @@ const default_config = {
               name: "Releases",
               url: "https://dev.azure.com/ClickDimensionstfs/CRM/_release?_a=releases&view=mine&definitionId=223",
               icon: "rocket",
-              icon_color: palette.green,
+              icon_color: palette.red,
             },
             {
               name: "Portal",
               url: "https://portal.azure.com",
               icon: "brand-azure",
-              icon_color: palette.green,
+              icon_color: palette.blue,
             },
 
           ],
