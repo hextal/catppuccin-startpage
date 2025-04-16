@@ -20,13 +20,13 @@ const default_config = {
       background_url: "src/img/banners/cbg-11.gif",
       categories: [
         {
-          name: "bookmarks",
+          name: "Productivity",
           links: [
             {
-              name: "raindrop",
-              url: "https://app.raindrop.io",
-              icon: "headphones",
-              icon_color: palette.green,
+              name: "pomodro",
+              url: "https://pomofocus.io/",
+              icon: "clock-hour-1",
+              icon_color: palette.peach,
             },
             {
               name: "mynoise",
@@ -34,39 +34,51 @@ const default_config = {
               icon: "binary-tree",
               icon_color: palette.peach,
             },
-            ,{
-              name: "pomodro",
-              url: "https://pomofocus.io/",
-              icon: "clock-hour-1",
-              icon_color: palette.peach,
+            {
+              name: "raindrop",
+              url: "https://app.raindrop.io",
+              icon: "headphones",
+              icon_color: palette.green,
             },
           ],
         },
         {
-          name: "workspace",
+          name: "Day-to-day",
           links: [
             {
-              name: "protonmail",
-              url: "https://protonmail.com",
-              icon: "brand-gmail",
+              name: "Sprint",
+              url: "https://clickdimensions.atlassian.net/jira/software/c/projects/CG/boards/169?assignee=606d8a012b469c0070424992",
+              icon: "run",
               icon_color: palette.green,
             },
             {
-              name: "Apple",
-              url: "https://icloud.com",
-              icon: "",
+              name: "Documentation",
+              url: "https://clickdimensions.atlassian.net/wiki/home",
+              icon: "book",
               icon_color: palette.white,
             },
           ],
         },
         {
-          name: "media",
+          name: "Help",
           links: [
             {
-              name: "Hackernews",
-              url: "https://news.ycombinator.com/",
-              icon: "news",
+              name: "devops",
+              url: "https://clickdimensions.atlassian.net/servicedesk/customer/portal/9",
+              icon: "settings",
               icon_color: palette.green,
+            },
+            {
+              name: "bizops",
+              url: "https://clickdimensions.atlassian.net/servicedesk/customer/portal/9",
+              icon: "user-question",
+              icon_color: palette.peach,
+            },
+            {
+              name: "misc",
+              url: "https://clickdimensions.atlassian.net/servicedesk/customer/portal/9",
+              icon: "disc",
+              icon_color: palette.peach,
             },
           ],
         },
