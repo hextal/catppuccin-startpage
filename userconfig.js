@@ -4,7 +4,7 @@ const palette = macchiato;
 const default_config = {
   overrideStorage: true,
   temperature: {
-    location: "London",
+    location: "Amsterdam",
     scale: "C",
   },
   clock: {
@@ -25,13 +25,19 @@ const default_config = {
             {
               name: "raindrop",
               url: "https://app.raindrop.io",
-              icon: "droplet-bolt",
+              icon: "headphones",
               icon_color: palette.green,
             },
             {
               name: "mynoise",
               url: "https://mynoise.net/NoiseMachines/stormSoundGenerator.php",
               icon: "binary-tree",
+              icon_color: palette.peach,
+            },
+            ,{
+              name: "pomodro",
+              url: "https://pomofocus.io/",
+              icon: "clock-hour-1",
               icon_color: palette.peach,
             },
           ],
@@ -71,43 +77,49 @@ const default_config = {
       background_url: "src/img/banners/cbg-07.gif",
       categories: [
         {
-          name: "development",
+          name: "Azure",
           links: [
             {
-              name: "github",
-              url: "https://github.com",
+              name: "Repos",
+              url: "https://dev.azure.com/ClickDimensionstfs/",
               icon: "brand-github",
+              icon_color: palette.green,
+            },
+            {
+              name: "Pipelines",
+              url: "https://dev.azure.com/ClickDimensionstfs/CRM/_build",
+              icon: "arrows-exchange",
+              icon_color: palette.green,
+            },
+              {
+              name: "Releases",
+              url: "https://dev.azure.com/ClickDimensionstfs/CRM/_release?_a=releases&view=mine&definitionId=223",
+              icon: "rocket",
+              icon_color: palette.green,
+            },
+            {
+              name: "Portal",
+              url: "https://portal.azure.com",
+              icon: "brand-azure",
               icon_color: palette.green,
             },
 
           ],
         },
         {
-          name: "challenges",
+          name: "Resources",
           links: [
             {
-              name: "kaggle",
-              url: "https://www.kaggle.com",
-              icon: "brain",
+              name: "Consul",
+              url: "http://consul.dev.clickdimensions.com:8500/ui/#/dc1/services",
+              icon: "circle-dotted-letter-c",
               icon_color: palette.green,
             },
             {
-              name: "leetcode",
-              url: "https://leetcode.com",
-              icon: "code-plus",
+              name: "Kibana",
+              url: "https://devkibana.clickdimensions.com/app/discover#/?_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-15m,to:now))&_a=(columns:!(),filters:!(),index:f47971c0-05b2-11ec-9a43-e7a879745c57,interval:auto,query:(language:kuery,query:''),sort:!(!('@timestamp',desc)))",
+              icon: "brand-elastic",
               icon_color: palette.peach,
-            },
-            {
-              name: "exercism",
-              url: "https://exercism.org",
-              icon: "code-minus",
-              icon_color: palette.red,
-            },
-            {
-              name: "aoc",
-              url: "https://adventofcode.com",
-              icon: "brand-linktree",
-              icon_color: palette.blue,
             },
           ],
         },
@@ -131,7 +143,7 @@ const default_config = {
       ],
     },
     {
-      name: "chi ll",
+      name: "chill",
       background_url: "src/img/banners/cbg-08.gif",
       categories: [
         {
@@ -158,9 +170,8 @@ const default_config = {
           ],
         },
         {
-          name: "gaming",
+          name: "learning",
           links: [
-
             {
               name: "steam",
               url: "https://store.steampowered.com",
