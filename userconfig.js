@@ -72,7 +72,7 @@ const default_config = {
               name: "teams",
               url: "https://teams.microsoft.com/v2/",
               icon: "brand-teams",
-              icon_color: palette.lavender,
+              icon_color: palette.maroon,
             },
             {
               name: "outlook",
@@ -84,13 +84,13 @@ const default_config = {
               name: "calendar",
               url: "https://outlook.office.com/calendar/view/month",
               icon: "calendar",
-              icon_color: palette.peach,
+              icon_color: palette.yellow,
             },
             {
               name: "onedrive",
               url: "https://clickdimensions-my.sharepoint.com/",
               icon: "brand-onedrive",
-              icon_color: palette.Mauve,
+              icon_color: palette.mauve,
             },
           ],
         },
@@ -165,7 +165,7 @@ const default_config = {
               name: "Kibana",
               url: "https://devkibana.clickdimensions.com/app/discover#/?_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-15m,to:now))&_a=(columns:!(),filters:!(),index:f47971c0-05b2-11ec-9a43-e7a879745c57,interval:auto,query:(language:kuery,query:''),sort:!(!('@timestamp',desc)))",
               icon: "brand-elastic",
-              icon_color: palette.yellow,
+              icon_color: palette.sky,
             },
             {
               name: "STP",
