@@ -127,7 +127,29 @@ const default_config = {
               icon: "brand-azure",
               icon_color: palette.blue,
             },
-
+          ],
+        },
+        {
+          name: "Environments",
+          links: [
+            {
+              name: "Dev",
+              url: "https://cdv9dev.crm.dynamics.com/main.aspx?appid=677923b5-8748-4ff0-b744-3d5d77da0ce8&forceUCI=1&pagetype=entitylist&etn=campaign&viewid=7f68a34b-26f1-430f-b3ef-7079f2925c69&viewType=1039",
+              icon: "cloud-code",
+              icon_color: palette.lavender,
+            },
+            {
+              name: "QA",
+              url: "https://cdv9qa.crm.dynamics.com/main.aspx?forceUCI=1&appid=d9c2e2ef-95bb-ea11-a812-000d3a988097",
+              icon: "microscope",
+              icon_color: palette.green,
+            },
+            {
+              name: "Directory",
+              url: "https://clickdimensions.atlassian.net/wiki/spaces/CTO/pages/2593587205/Dynamics+CDSE+and+Power+Bundle+-+Environments",
+              icon: "folder-search",
+              icon_color: palette.red,
+            },
           ],
         },
         {
@@ -143,6 +165,12 @@ const default_config = {
               name: "Kibana",
               url: "https://devkibana.clickdimensions.com/app/discover#/?_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-15m,to:now))&_a=(columns:!(),filters:!(),index:f47971c0-05b2-11ec-9a43-e7a879745c57,interval:auto,query:(language:kuery,query:''),sort:!(!('@timestamp',desc)))",
               icon: "brand-elastic",
+              icon_color: palette.yellow,
+            },
+            {
+              name: "STP",
+              url: "https://stp.clickdimensions.com",
+              icon: "pointer",
               icon_color: palette.yellow,
             },
           ],
