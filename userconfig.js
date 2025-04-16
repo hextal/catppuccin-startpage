@@ -15,7 +15,8 @@ const default_config = {
   fastlink: "https://app.raindrop.io",
   openLastVisitedTab: true,
   tabs: [
-    {
+    { 
+      name: "myself",
       background_url: "src/img/banners/cbg-11.gif",
       categories: [
         {
