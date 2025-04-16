@@ -16,7 +16,6 @@ const default_config = {
   openLastVisitedTab: true,
   tabs: [
     {
-      name: "myself",
       background_url: "src/img/banners/cbg-11.gif",
       categories: [
         {
@@ -46,22 +45,10 @@ const default_config = {
               icon_color: palette.green,
             },
             {
-              name: "calendar",
-              url: "https://calendar.google.com",
-              icon: "calendar-filled",
-              icon_color: palette.peach,
-            },
-            {
-              name: "sheets",
-              url: "https://docs.google.com/spreadsheets",
-              icon: "table",
-              icon_color: palette.red,
-            },
-            {
-              name: "drive",
-              url: "https://drive.google.com/drive/home",
-              icon: "brand-google-drive",
-              icon_color: palette.blue,
+              name: "Apple",
+              url: "https://icloud.com",
+              icon: "",
+              icon_color: palette.white,
             },
           ],
         },
@@ -91,12 +78,7 @@ const default_config = {
               icon: "brand-github",
               icon_color: palette.green,
             },
-            {
-              name: "neptune",
-              url: "https://ui.neptune.ai",
-              icon: "circle-triangle",
-              icon_color: palette.peach,
-            },
+
           ],
         },
         {
