@@ -26,13 +26,13 @@ const default_config = {
               name: "pomodro",
               url: "https://pomofocus.io/",
               icon: "clock-hour-1",
-              icon_color: palette.peach,
+              icon_color: palette.red,
             },
             {
               name: "mynoise",
               url: "https://mynoise.net/NoiseMachines/stormSoundGenerator.php",
               icon: "headphones",
-              icon_color: palette.peach,
+              icon_color: palette.green,
             },
             {
               name: "raindrop",
@@ -55,13 +55,13 @@ const default_config = {
               name: "Documentation",
               url: "https://clickdimensions.atlassian.net/wiki/home",
               icon: "book",
-              icon_color: palette.peach,
+              icon_color: palette.sky,
             },
             {
               name: "figma",
               url: "https://www.figma.com",
               icon: "brand-figma",
-              icon_color: palette.peach,
+              icon_color: palette.mauve,
             },
           ],
         },
@@ -72,13 +72,13 @@ const default_config = {
               name: "teams",
               url: "https://teams.microsoft.com/v2/",
               icon: "brand-teams",
-              icon_color: palette.green,
+              icon_color: palette.lavender,
             },
             {
               name: "outlook",
               url: "https://outlook.office.com/mail/",
               icon: "mail",
-              icon_color: palette.peach,
+              icon_color: palette.sky,
             },
             {
               name: "calendar",
@@ -90,7 +90,7 @@ const default_config = {
               name: "onedrive",
               url: "https://clickdimensions-my.sharepoint.com/",
               icon: "brand-onedrive",
-              icon_color: palette.red,
+              icon_color: palette.Mauve,
             },
           ],
         },
@@ -137,38 +137,21 @@ const default_config = {
               name: "Consul",
               url: "http://consul.dev.clickdimensions.com:8500/ui/#/dc1/services",
               icon: "circle-letter-c",
-              icon_color: palette.green,
+              icon_color: palette.maroon,
             },
             {
               name: "Kibana",
               url: "https://devkibana.clickdimensions.com/app/discover#/?_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-15m,to:now))&_a=(columns:!(),filters:!(),index:f47971c0-05b2-11ec-9a43-e7a879745c57,interval:auto,query:(language:kuery,query:''),sort:!(!('@timestamp',desc)))",
               icon: "brand-elastic",
-              icon_color: palette.peach,
-            },
-          ],
-        },
-        {
-          name: "resources",
-          links: [
-            {
-              name: "dou",
-              url: "https://dou.ua",
-              icon: "brand-prisma",
-              icon_color: palette.green,
-            },
-            {
-              name: "netflix tech blog",
-              url: "https://netflixtechblog.com",
-              icon: "brand-netflix",
-              icon_color: palette.blue,
+              icon_color: palette.yellow,
             },
           ],
         },
       ],
     },
     {
-      name: "chill",
-      background_url: "src/img/banners/cbg-08.gif",
+      name: "Help",
+      background_url: "src/img/banners/cbg-09.gif",
       categories: [
         {
           name: "social media",
@@ -194,25 +177,7 @@ const default_config = {
           ],
         },
         {
-          name: "learning",
-          links: [
-            {
-              name: "steam",
-              url: "https://store.steampowered.com",
-              icon: "brand-steam",
-              icon_color: palette.peach,
-            },
-
-            {
-              name: "playstation",
-              url: "https://www.playstation.com",
-              icon: "device-playstation",
-              icon_color: palette.blue,
-            },
-          ],
-        },
-        {
-          name: "Help",
+          name: "Settings",
           links: [
             {
               name: "devops",
@@ -231,6 +196,17 @@ const default_config = {
               url: "https://clickdimensions.atlassian.net/servicedesk/customer/portal/9",
               icon: "disc",
               icon_color: palette.blue,
+            },
+          ],
+        },
+          {
+          name: "Edit Page",
+          links: [
+            {
+              name: "Edit Page",
+              url: "https://github.com/hextal/work-startpage/blob/main/userconfig.js",
+              icon: "pen",
+              icon_color: palette.peach,
             },
           ],
         },
