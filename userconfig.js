@@ -31,13 +31,13 @@ const default_config = {
             {
               name: "mynoise",
               url: "https://mynoise.net/NoiseMachines/stormSoundGenerator.php",
-              icon: "binary-tree",
+              icon: "headphones",
               icon_color: palette.peach,
             },
             {
               name: "raindrop",
               url: "https://app.raindrop.io",
-              icon: "headphones",
+              icon: "droplet-bolt",
               icon_color: palette.green,
             },
           ],
@@ -78,7 +78,7 @@ const default_config = {
               name: "misc",
               url: "https://clickdimensions.atlassian.net/servicedesk/customer/portal/9",
               icon: "disc",
-              icon_color: palette.peach,
+              icon_color: palette.green,
             },
           ],
         },
@@ -124,7 +124,7 @@ const default_config = {
             {
               name: "Consul",
               url: "http://consul.dev.clickdimensions.com:8500/ui/#/dc1/services",
-              icon: "circle-dotted-letter-c",
+              icon: "circle-letter-c",
               icon_color: palette.green,
             },
             {
