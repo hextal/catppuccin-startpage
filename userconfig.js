@@ -200,15 +200,26 @@ const default_config = {
           ],
         },
         {
-          name: "video",
+          name: "Help",
           links: [
             {
-              name: "youtube",
-              url: "https://www.youtube.com",
-              icon: "brand-youtube",
+              name: "devops",
+              url: "https://clickdimensions.atlassian.net/servicedesk/customer/portal/9",
+              icon: "settings",
+              icon_color: palette.green,
+            },
+            {
+              name: "bizops",
+              url: "https://clickdimensions.atlassian.net/servicedesk/customer/portal/9",
+              icon: "user-question",
               icon_color: palette.peach,
             },
-
+            {
+              name: "misc",
+              url: "https://clickdimensions.atlassian.net/servicedesk/customer/portal/9",
+              icon: "disc",
+              icon_color: palette.blue,
+            },
           ],
         },
       ],
