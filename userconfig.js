@@ -210,7 +210,7 @@ const default_config = {
             {
               name: "Edit Page",
               url: "https://github.com/hextal/work-startpage/blob/main/userconfig.js",
-              icon: "library-plus",
+              icon: "pencil",
               icon_color: palette.peach,
             },
           ],
